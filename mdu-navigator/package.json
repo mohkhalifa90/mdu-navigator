@@ -1,0 +1,25 @@
+{
+  "name": "mdu-navigator",
+  "version": "0.1.0",
+  "description": "Unofficial student prototype: rooms, routes and schedule for MDU Campus V\u00e4ster\u00e5s (Android, iOS, web).",
+  "scripts": {
+    "sync": "cap sync",
+    "android": "cap sync android && cap open android",
+    "ios": "cap sync ios && cap open ios",
+    "serve": "python3 -m http.server 8080 -d www",
+    "icons": "capacitor-assets generate --iconBackgroundColor '#1d5fa8' --splashBackgroundColor '#1d5fa8'"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@capacitor/android": "^8.6.0",
+    "@capacitor/core": "^8.6.0",
+    "@capacitor/ios": "^8.6.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^4.0.0",
+    "@capacitor/cli": "^8.6.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/ibm-plex-sans": "^5.3.0"
+  },
+  "private": true
+}

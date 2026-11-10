@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">MDU Navigator</string>
+    <string name="title_activity_main">MDU Navigator</string>
+    <string name="package_name">com.studentproject.mdunavigator</string>
+    <string name="custom_url_scheme">com.studentproject.mdunavigator</string>
+</resources>
